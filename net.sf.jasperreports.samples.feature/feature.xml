@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.sf.jasperreports.samples.feature"
+      label="ezRepo Designer Library Samples Feature"
+      version="6.19.1.final"
+      provider-name="HOUSEI Inc."
+      os="linux,macosx,win32"
+      ws="carbon,cocoa,gtk,win32">
+
+   <description url="http://community.jaspersoft.com/project/jaspersoft-studio">
+      Reports Samples for ezRepo Designer
+   </description>
+
+   <copyright>
+      Copyright (C) 2010 - 2022. HOUSEI Inc.
+   </copyright>
+
+   <url>
+      <update label="ezRepo Designer update site" url="http://jasperstudio.sf.net/updates"/>
+      <discovery label="ezRepo Designer" url="http://community.jaspersoft.com/project/jaspersoft-studio"/>
+   </url>
+
+   <requires>
+      <import plugin="net.sf.jasperreports" version="6.19.1" match="greaterOrEqual"/>
+      <import plugin="net.sf.jasperreports.samples" version="6.19.1" match="greaterOrEqual"/>
+      <import plugin="net.sf.jasperreports.doc" version="6.19.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.navigator.resources" version="3.4.200" match="greaterOrEqual"/>
+      <!-- <import plugin="com.jaspersoft.studio.doc" version="2.0.1" match="greaterOrEqual"/> -->
+   </requires>
+
+   <plugin
+         id="net.sf.jasperreports.samples"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <!-- <plugin
+         id="com.jaspersoft.studio.doc.samples"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/> -->
+
+</feature>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with ezRepo Designer version 2.0.1.11  using Runtime Library version6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Quotation" pageWidth="842" pageHeight="642" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6943c004-6557-4d2b-b87b-23c7a36ce242">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DataAdapter.ezdax"/>
+	<property name="com.jaspersoft.studio.unit." value="mm"/>
+
+	<queryString language="json">
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="55" splitType="Stretch">
+			<staticText>
+				<reportElement x="20" y="20" width="790" height="30" uuid="cd60c413-bf61-4cef-877d-9e315256a516"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" size="20" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[ご請求書]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="470" splitType="Stretch">
+			<textField>
+				<reportElement x="47" y="16" width="100" height="22" uuid="317e284b-1325-40f7-9b58-71f57b053fdf"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["郵便番号"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="47" y="40" width="100" height="22" uuid="16136b18-dbee-4ba7-ad54-bd1de3923c4b"/>
+				<textElement>
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["住所"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="49" y="73" width="100" height="22" uuid="01cd702d-3b81-4a69-b2a9-857f8ffd4033"/>
+				<textElement>
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["顧客名"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="49" y="103" width="100" height="22" uuid="13f243a7-9b46-4091-aad0-8f66f398a748"/>
+				<textElement>
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["部署"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="47" y="125" width="100" height="22" uuid="309406eb-4154-4ab0-af91-37c9a04a3164"/>
+				<textElement>
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["担当者"]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="49" y="145" width="200" height="1" uuid="3eebc3a6-b934-4dc6-8a91-9dd40f830ba8"/>
+			</line>
+			<staticText>
+				<reportElement x="46" y="179" width="42" height="20" uuid="0d28bf28-4522-4324-8a53-a80500c72549"/>
+				<textElement>
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[件名：]]></text>
+			</staticText>
+			<line>
+				<reportElement x="89" y="190" width="139" height="1" uuid="385aacf6-5868-4fca-8948-134b907aa652"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="48" y="209" width="42" height="20" uuid="54978672-8e35-4815-8d6b-906f632b78af"/>
+				<textElement>
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[納期：]]></text>
+			</staticText>
+			<line>
+				<reportElement x="89" y="219" width="139" height="1" uuid="0b2cc35b-fd74-4366-8d61-0d080ca835f6"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="46" y="239" width="52" height="20" uuid="8c02b910-7be3-44e1-a596-69b03a6e96e5"/>
+				<textElement>
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[検収条件：]]></text>
+			</staticText>
+			<line>
+				<reportElement x="88" y="249" width="139" height="1" uuid="c7e6b927-5d2b-4a7d-a54b-dc89eff57660"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="566" y="18" width="40" height="19" uuid="07300eba-48e0-4e12-b2f0-27d01b0d6846">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="560" y="37" width="50" height="15" uuid="253a63cc-0159-4eca-a637-8e1ea4c5bea7"/>
+				<textElement textAlignment="Right">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[発行日：]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="610" y="37" width="100" height="15" uuid="d896c07e-9c07-4735-a94e-f8e95e941093"/>
+				<textElement textAlignment="Right">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="610" y="52" width="100" height="29" uuid="e899ee76-50b4-4bfa-abfb-93a6a963eb33"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" size="16" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[HOUSEI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="570" y="81" width="140" height="20" uuid="91d319a8-a21f-49a3-920f-f0090f667c3d"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[ＨＯＵＳＥＩ 株式会社]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="475" y="101" width="235" height="20" uuid="8924d2d8-bccc-4e08-a1b9-fe56182267e5"/>
+				<textElement textAlignment="Right">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[プロフェッショナルサービス事業部 業務推進支援G]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="610" y="121" width="100" height="18" uuid="e23b3c7b-18bb-4c7c-a3e3-3d3304887952"/>
+				<textElement textAlignment="Right" verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[〒162-0821]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="475" y="139" width="235" height="20" uuid="d00c242d-0050-4711-a234-06ba75f0626a"/>
+				<textElement textAlignment="Right">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[東京都新宿区津久戸町1番8号 神楽坂AKビル9F]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="500" y="159" width="210" height="20" uuid="587373be-fdb6-49bd-baf9-7724403e2cb8"/>
+				<textElement textAlignment="Right">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[TEL：03-4346-6600　FAX：03-4346-6601]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="610" y="179" width="100" height="16" uuid="08010cfc-1b09-40de-a689-6120a51d79bc"/>
+				<textElement textAlignment="Right">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[安部　光洋]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="560" y="196" width="47" height="50" uuid="c0c87a27-8f8a-4a20-aa8b-496f1671931d"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="607" y="196" width="47" height="50" uuid="41cf6536-a35b-4c92-964c-c7fa437ff7c3"/>
+			</rectangle>
+			<line>
+				<reportElement x="46" y="279" width="299" height="1" uuid="17e731bc-9bb5-41c3-a1c0-e288e6f00038"/>
+			</line>
+			<line>
+				<reportElement x="45" y="279" width="1" height="51" uuid="23d61c3b-6c62-4f76-ab11-0a78dbfe9a9f"/>
+			</line>
+			<line>
+				<reportElement x="345" y="279" width="1" height="51" uuid="b9b7dd5b-eac4-4e76-a49c-b8fb60bfa086"/>
+			</line>
+			<line>
+				<reportElement x="45" y="330" width="300" height="1" uuid="69ed882b-1532-44e5-9a9e-dfc0526224d2"/>
+			</line>
+			<line>
+				<reportElement x="46" y="298" width="299" height="1" uuid="05bbda43-aebc-4e21-8bc2-a376b155bcfd"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="45" y="279" width="100" height="19" uuid="7f9dc24f-067d-4eb7-8905-63d93197c2ad"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[締切日]]></text>
+			</staticText>
+			<line>
+				<reportElement x="145" y="279" width="1" height="51" uuid="d22736c7-ea46-4df4-bd7f-7fdbdddf1083"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="245" y="280" width="1" height="51" uuid="ce6c477e-a088-46be-84a7-f9778fe716c3"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="145" y="280" width="100" height="19" uuid="162ef4d2-e595-48c7-9c77-cc07a61a6090"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[お支払条件]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="245" y="280" width="100" height="19" uuid="dc4727e0-0786-4fef-aca3-e2de7550d5f9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[お支払期限]]></text>
+			</staticText>
+			<line>
+				<reportElement x="46" y="350" width="299" height="1" uuid="7b5746ba-1d93-4892-8540-daf0e8f9b183"/>
+			</line>
+			<line>
+				<reportElement x="45" y="350" width="1" height="51" uuid="f3c5f6f6-ea17-4e32-8426-01764a17ed07"/>
+			</line>
+			<line>
+				<reportElement x="345" y="350" width="1" height="51" uuid="d801bcbe-c5b2-4593-8e0f-77f4fc7d28f4"/>
+			</line>
+			<line>
+				<reportElement x="45" y="401" width="300" height="1" uuid="e3a4d3fe-ed0c-4743-bf4c-03fcdaac6f82"/>
+			</line>
+			<line>
+				<reportElement x="46" y="369" width="299" height="1" uuid="23eb8a71-899a-40b3-8af1-d8ea9a50912f"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="45" y="350" width="100" height="19" uuid="e4092bcb-c34e-4c87-9d36-798dfb424aea"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[税抜価格]]></text>
+			</staticText>
+			<line>
+				<reportElement x="145" y="350" width="1" height="51" uuid="8b9d1fd2-fda2-42d9-bd09-217fb3547db6"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="245" y="351" width="1" height="51" uuid="e9826aa8-f801-45cb-862e-09311c0f734c"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="145" y="351" width="100" height="19" uuid="531f4356-ab8b-45d7-b147-7d6572934796"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[消費税]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="245" y="351" width="100" height="19" uuid="2d10ab57-903c-4165-8572-19df85d9d1b3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[税込価格]]></text>
+			</staticText>
+			<line>
+				<reportElement x="659" y="351" width="1" height="51" uuid="a42b534f-338e-41da-8826-c6de410aa4ac"/>
+			</line>
+			<line>
+				<reportElement x="559" y="372" width="99" height="1" uuid="dd42dc88-3a7e-40eb-8151-06bf0eb43084"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="559" y="352" width="100" height="19" uuid="184e236a-cdd5-4361-bfb2-2708c1650d96"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[今回ご請求金額]]></text>
+			</staticText>
+			<line>
+				<reportElement x="559" y="351" width="1" height="51" uuid="caf51904-2483-44ae-aa7b-aaed01f45f24"/>
+			</line>
+			<line>
+				<reportElement x="560" y="351" width="99" height="1" uuid="8b74ce09-109f-4817-bec5-7bd9a3a648f3"/>
+			</line>
+			<line>
+				<reportElement x="559" y="402" width="101" height="1" uuid="3e648660-d853-4b08-b1f3-815e8d3dc8d3"/>
+			</line>
+			<staticText>
+				<reportElement x="47" y="428" width="44" height="20" uuid="02f04275-98e2-4c93-b0c2-0777d8d19b35"/>
+				<textElement>
+					<font fontName="ezRepoMincho" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[明細]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="449" width="60" height="19" uuid="088b07ae-5c2b-426b-89dd-0773c0013aba"/>
+				<box>
+					<topPen lineStyle="Solid"/>
+					<leftPen lineStyle="Solid"/>
+					<bottomPen lineStyle="Solid"/>
+					<rightPen lineStyle="Solid"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[明細No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="126" y="449" width="100" height="19" uuid="a8fb6f50-59e0-4793-96c7-c9b4920e29a3"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[ご利用システム名]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="236" y="450" width="70" height="19" uuid="71120f8c-9244-4fc2-9fa4-3e778aaf8d39"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[明細]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="346" y="449" width="50" height="19" uuid="c9d3daae-5bb6-4ce2-8c6a-de37e7861951"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[単価]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="396" y="449" width="50" height="19" uuid="d12d201c-bd39-467a-b57d-849a00578b49"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[数量]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="446" y="449" width="50" height="19" uuid="4e37d59a-6a39-4420-aa12-f0c30ee05c49"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[単位]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="496" y="449" width="50" height="19" uuid="2ba6af09-936a-4936-bc0e-e9894ba654ef"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[金額]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="546" y="450" width="50" height="19" uuid="ce7eb9e6-9585-48a8-993f-3ee43c3f11db"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="ezRepoMincho" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[備考]]></text>
+			</staticText>
+			<line>
+				<reportElement x="47" y="469" width="539" height="1" uuid="7ad592ef-cd6a-4482-8b58-6c901bbaf7bc"/>
+			</line>
+			<line>
+				<reportElement x="46" y="450" width="1" height="19" uuid="3a27868b-e066-4d41-8155-c83c9cb9fef6"/>
+			</line>
+			<line>
+				<reportElement x="585" y="450" width="1" height="19" uuid="19f24e7d-aa18-4506-a6cc-8288e4209598"/>
+			</line>
+			<line>
+				<reportElement x="47" y="450" width="539" height="1" uuid="f460d659-48dd-4c97-8483-7900591459dc"/>
+			</line>
+			<line>
+				<reportElement x="117" y="450" width="1" height="19" uuid="09071c5f-f8be-4af4-8175-ad6d27d994f7"/>
+			</line>
+			<line>
+				<reportElement x="216" y="450" width="1" height="19" uuid="70097d14-54ed-4337-9566-3046b08d62b1"/>
+			</line>
+			<line>
+				<reportElement x="326" y="450" width="1" height="19" uuid="3ccaadc0-5447-4cc3-8758-733de44c678a"/>
+			</line>
+			<line>
+				<reportElement x="386" y="450" width="1" height="19" uuid="baa779e8-01af-4185-9af0-e84eec447e6e"/>
+			</line>
+			<line>
+				<reportElement x="436" y="450" width="1" height="19" uuid="8948aad4-6b35-4148-9877-39022dcadc27"/>
+			</line>
+			<line>
+				<reportElement x="490" y="449" width="1" height="19" uuid="57d125b4-5bc4-44b3-922b-009e74e3f719"/>
+			</line>
+			<line>
+				<reportElement x="536" y="450" width="1" height="19" uuid="e9462aa0-95f9-4ed4-b5cd-eead83f3fec9"/>
+			</line>
+			<line>
+				<reportElement x="45" y="160" width="294" height="1" uuid="ce08706b-fe70-4ce5-aed9-502cf3343a47"/>
+			</line>
+			<line>
+				<reportElement x="45" y="0" width="294" height="1" uuid="45991dab-69fa-4fa6-95b0-399adfa6ae3e"/>
+			</line>
+			<line>
+				<reportElement x="45" y="1" width="1" height="159" uuid="492ba1b1-bdcc-44dd-babe-7e88088e41c6"/>
+			</line>
+			<line>
+				<reportElement x="339" y="0" width="1" height="159" uuid="356777fc-0fe4-42a4-a989-0fa3a81a88e4"/>
+			</line>
+			<rectangle>
+				<reportElement x="654" y="196" width="47" height="50" uuid="e8638025-5ad3-4096-9d3e-9061a97b7514"/>
+			</rectangle>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+</jasperReport>

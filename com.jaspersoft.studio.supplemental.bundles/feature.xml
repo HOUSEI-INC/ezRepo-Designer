@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.jaspersoft.studio.supplemental.bundles"
+      label="Additional bundles for the Community Edition"
+      version="6.19.1.final"
+      provider-name="Tibco Software Inc.">
+
+   <description url="http://community.jaspersoft.com/project/jaspersoft-studio">
+      Additional bundles for ezRepo Designer
+   </description>
+
+   <copyright>
+      Copyright (C) 2010 - 2022. HOUSEI Inc.
+   </copyright>
+
+   <url>
+      <update label="ezRepo Designer update site" url="http://jasperstudio.sf.net/updates"/>
+      <discovery label="ezRepo Designer" url="http://community.jaspersoft.com/project/jaspersoft-studio"/>
+   </url>
+
+   <requires>
+      <import plugin="com.jaspersoft.studio" version="6.19.1" match="greaterOrEqual"/>
+      <import plugin="org.w3c.css.sac" version="1.3.1" match="greaterOrEqual"/>
+   </requires>
+
+   <!--<plugin
+         id="com.jaspersoft.studio.svgimporter"
+         download-size="0"
+         install-size="0"
+         version="2.0.1"
+         unpack="false"/>
+-->
+</feature>

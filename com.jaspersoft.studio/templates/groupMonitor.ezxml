@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with ezRepo Designer version 2.0.1.11  using Runtime Library version6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="GroupMonitor_2" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="842" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="4faa41c2-9e01-4a87-a87c-90b51af334a7">
+	<property name="com.jaspersoft.studio.unit." value="mm"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DataAdapter.ezdax"/>
+	<queryString language="json">
+		<![CDATA[]]>
+	</queryString>
+	<field name="applicationID" class="java.lang.Long">
+		<property name="net.sf.jasperreports.json.field.expression" value="applicationID"/>
+		<fieldDescription><![CDATA[applicationID]]></fieldDescription>
+	</field>
+	<field name="manager" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="manager"/>
+		<fieldDescription><![CDATA[manager]]></fieldDescription>
+	</field>
+	<field name="ouputDateOclock" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ouputDateOclock"/>
+		<fieldDescription><![CDATA[ouputDateOclock]]></fieldDescription>
+	</field>
+	<field name="propertyName" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="propertyName"/>
+		<fieldDescription><![CDATA[propertyName]]></fieldDescription>
+	</field>
+	<field name="adAgencyNumber" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="adAgencyNumber"/>
+		<fieldDescription><![CDATA[adAgencyNumber]]></fieldDescription>
+	</field>
+	<field name="applicationDateDay" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="applicationDateDay"/>
+		<fieldDescription><![CDATA[applicationDateDay]]></fieldDescription>
+	</field>
+	<field name="advertiser" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="advertiser"/>
+		<fieldDescription><![CDATA[advertiser]]></fieldDescription>
+	</field>
+	<field name="mediaName" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="mediaName"/>
+		<fieldDescription><![CDATA[mediaName]]></fieldDescription>
+	</field>
+	<field name="postHeadOffice" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="postHeadOffice"/>
+		<fieldDescription><![CDATA[postHeadOffice]]></fieldDescription>
+	</field>
+	<field name="advertiserTEL" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="advertiserTEL"/>
+		<fieldDescription><![CDATA[advertiserTEL]]></fieldDescription>
+	</field>
+	<field name="productName" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="productName"/>
+		<fieldDescription><![CDATA[productName]]></fieldDescription>
+	</field>
+	<field name="publicateNumber" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="publicateNumber"/>
+		<fieldDescription><![CDATA[publicateNumber]]></fieldDescription>
+	</field>
+	<field name="industryNumber" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="industryNumber"/>
+		<fieldDescription><![CDATA[industryNumber]]></fieldDescription>
+	</field>
+	<field name="layout" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="layout"/>
+		<fieldDescription><![CDATA[layout]]></fieldDescription>
+	</field>
+	<field name="occupationNumber" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="occupationNumber"/>
+		<fieldDescription><![CDATA[occupationNumber]]></fieldDescription>
+	</field>
+	<field name="applicationSize" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="applicationSize"/>
+		<fieldDescription><![CDATA[applicationSize]]></fieldDescription>
+	</field>
+	<field name="publicateDate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="publicateDate"/>
+		<fieldDescription><![CDATA[publicateDate]]></fieldDescription>
+	</field>
+	<field name="image" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="image"/>
+		<fieldDescription><![CDATA[image]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="180" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="14" y="5" width="116" height="40" uuid="1ebeaadd-c68a-4f0d-abda-ea52416e2438">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Top">
+					<font fontName="ezRepoMincho" size="22" isBold="true" isUnderline="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[小組モニタ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="155" y="4" width="78" height="30" uuid="8064218d-0a13-4b13-bf47-34386d84586d">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="15" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[申込ID ：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="380" y="4" width="50" height="30" uuid="3f9b3169-d527-44fb-af45-37ef71e8e566">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[担当者：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="583" y="4" width="60" height="30" uuid="611b3a6d-e087-4905-b0d7-38476faa3084">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[出力日時 ： ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="59" width="52" height="18" uuid="e29c4236-f065-4654-8b32-7eeb5da81eac">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[物件名：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="268" y="59" width="70" height="18" uuid="6f101ee3-c582-4044-a5b9-0e9361edae5c">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[広告代理店：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="527" y="59" width="73" height="18" uuid="b119134d-bfd9-4ad2-9138-c8aa06373b9c">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[申込年月日： ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="78" width="52" height="18" uuid="e92070c8-abe1-4de2-a324-d9d94be5fd3b">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[広告主：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="527" y="78" width="77" height="18" uuid="1fc7428b-6f31-4244-bd81-9bcf05713b32">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[掲載先本社： ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="268" y="78" width="50" height="18" uuid="99bc8a1d-6576-4379-b4d3-8ac2e0064e1f">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[媒体名：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="527" y="97" width="60" height="18" uuid="c7e4dad1-1c1b-405d-b410-0cbcba862adf">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[掲載回数： ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="97" width="67" height="18" uuid="ecb7ac2e-7cbc-46e2-992c-cbf7183732d6">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[広告主TEL：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="268" y="97" width="50" height="18" uuid="fcee6e0e-dab4-42f9-b6d8-c18289b28fd1">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[商品名：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="116" width="35" height="18" uuid="2623941b-3f25-4f92-8ffa-23daf5461c88">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[業種：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="268" y="116" width="93" height="18" uuid="bbdcbe68-d245-4ec2-9807-a05ece96f0cf">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[商品レイアウト：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="268" y="135" width="71" height="18" uuid="ac05ec7c-18bf-4964-b914-7d78db7d1767">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[申込サイズ：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="135" width="35" height="18" uuid="642d9128-0ca9-439c-ae0e-9dd1d2f0bfa5">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[職種：]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="154" width="70" height="18" uuid="5afa8741-8cd0-47a4-8d62-03dfe3ef4654">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="ezRepoMincho" size="11" isBold="true" pdfFontName="HeiseiMin-W3" pdfEncoding="UniJIS-UCS2-H" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[掲載年月日：]]></text>
+			</staticText>
+		</band>
+		<band height="388">
+			<frame>
+				<reportElement x="13" y="0" width="816" height="388" uuid="37137043-6c71-45bd-9d70-a2a3290a94bc">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.25" lineStyle="Double" lineColor="#D1CFCF"/>
+					<topPen lineWidth="0.25" lineStyle="Double" lineColor="#D1CFCF"/>
+					<leftPen lineWidth="0.25" lineStyle="Double" lineColor="#D1CFCF"/>
+					<bottomPen lineWidth="0.25" lineStyle="Double" lineColor="#D1CFCF"/>
+					<rightPen lineWidth="0.25" lineStyle="Double" lineColor="#D1CFCF"/>
+				</box>
+				<image scaleImage="RealSize" rotation="None" hAlign="Center" vAlign="Middle" isLazy="true" onErrorType="Blank">
+					<reportElement mode="Opaque" x="0" y="0" width="816" height="388" backcolor="#F3F2F1" uuid="54d36de7-0a17-40f2-bacc-31a1256a9e4a"/>
+					<box topPadding="0"/>
+					<imageExpression><![CDATA[$F{image}]]></imageExpression>
+				</image>
+			</frame>
+		</band>
+	</detail>
+</jasperReport>

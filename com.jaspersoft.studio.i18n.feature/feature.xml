@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.jaspersoft.studio.i18n.feature"
+      label="Internationalization Support for TIBCO Jasperosoft Studio"
+      version="1.0.0.nl"
+      provider-name="HOUSEI Inc.">
+
+   <description url="http://community.jaspersoft.com/project/jaspersoft-studio">
+      Internationalization support for ezRepo Designer
+   </description>
+
+   <copyright>
+      Copyright (C) 2010 - 2022. HOUSEI Inc.
+   </copyright>
+
+   <url>
+      <update label="ezRepo Designer update site" url="http://jasperstudio.sf.net/updates"/>
+      <discovery label="ezRepo Designer" url="http://community.jaspersoft.com/project/jaspersoft-studio"/>
+   </url>
+
+</feature>
